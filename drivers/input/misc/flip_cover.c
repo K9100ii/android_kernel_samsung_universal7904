@@ -86,7 +86,7 @@ static ssize_t certify_hall_detect_show(struct device *dev,
 					struct device_attribute *attr,
 					char *buf)
 {
-	if (!test_bit(SW_CERTIFYHALL, gddata->input->sw))
+	if (!test_bit(SW_MACHINE_COVER, gddata->input->sw))
 		sprintf(buf, "OPEN\n");
 	else
 		sprintf(buf, "CLOSE\n");
