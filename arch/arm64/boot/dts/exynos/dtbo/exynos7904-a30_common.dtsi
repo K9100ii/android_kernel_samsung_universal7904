@@ -876,7 +876,7 @@
 				};
 				certify_hall {
 					name = "certify_hall";
-					event = <0x1b>;
+					event = <0x10>;
 					gpios = <&gpa1 4 0xf>;
 				};
 			};
